@@ -1,0 +1,12 @@
+{
+  "Type": "content",
+  "Name": "Combine The Fat",
+  "Version": "1.0.0",
+  "Description": "Patches in the ability to recombine fat peices from Cut The Fat.",
+  "Website": "https://github.com/CircuitDev192/CombineTheFat",
+  "ModID": "combinethefat",
+  "Authors": [
+    "CircuitPwne"
+  ],
+  "Side": "Universal"
+}

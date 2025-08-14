@@ -1,0 +1,28 @@
+[
+  {
+	"file": "game:recipes/grid/fat-cut.json",
+	"op": "addmerge",
+	"path": "/-",
+	"value":
+	{
+		ingredientPattern: "FF,FF",
+		ingredients: {
+			"F": { type: "item", code: "fat-cut" }
+		},
+		shapeless: true,
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "fat", quantity: 1  }
+	},
+    "side": "Server",
+	"dependsOn": [{ "modid": "cutthefat" }]
+  },
+  {
+	"file": "game:recipes/grid/fat-cut.json",
+	"op": "replace",
+	"path": "/0/output",
+	"value": { type: "item", code: "fat-cut", quantity: 4  },
+    "side": "Server",
+	"dependsOn": [{ "modid": "cutthefat" }]
+  }
+]
