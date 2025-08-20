@@ -14,17 +14,16 @@ The "Cut The Fat" mod allows you to use a knife or cleaver to cut chunks of fat 
 
 - **Recombine Fat Pieces**: Put 4 fat pieces back in the crafting grid to get a whole fat chunk (shapeless recipe)
 - **Standardized Cutting Yields**: Both knife AND cleaver now give 4 pieces (instead of knife=3, cleaver=4)
-- **Shapeless Crafting**: The recombining recipe works in any arrangement - no specific pattern required
 
 ## Screenshots
+
+![Thumbnail](thumbnail.png)
 
 ![Screenshot 1](pic1.png)
 
 ![Screenshot 2](pic2.png)
 
 ![Screenshot 3](pic3.png)
-
-![Thumbnail](thumbnail.png)
 
 ## Installation
 
@@ -35,14 +34,8 @@ The "Cut The Fat" mod allows you to use a knife or cleaver to cut chunks of fat 
 
 ## Requirements
 
-- **Vintage Story** (compatible version)
-- **Cut The Fat mod** (required dependency)
-
-## Technical Details
-
-This mod uses JSON patches to modify the existing fat cutting recipes from "Cut The Fat":
-- Adds a new shapeless recipe to combine 4 `fat-cut` items into 1 `fat` item
-- Patches both knife and cleaver cutting recipes to yield 4 pieces each (standardizing the output)
+- **Vintage Story 1.20.12** (or compatible version)
+- **Cut The Fat mod 1.0.1** (required dependency)
 
 ## Author
 
@@ -58,4 +51,4 @@ This mod uses JSON patches to modify the existing fat cutting recipes from "Cut 
 
 ## License
 
-This mod is created for the Vintage Story community. Please check the repository for license details.
+GNU GPL v3
