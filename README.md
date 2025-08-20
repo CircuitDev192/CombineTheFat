@@ -1,16 +1,20 @@
 # Combine The Fat
 
-A Vintage Story mod that patches in the ability to recombine fat pieces from the "Cut The Fat" mod.
+A Vintage Story mod that patches the "Cut The Fat" mod to add fat recombining functionality and standardize cutting yields.
 
 ## Description
 
-This mod works as a companion to the "Cut The Fat" mod, allowing players to reverse the fat cutting process. While "Cut The Fat" lets you slice fat into smaller pieces, "Combine The Fat" adds recipes to recombine those cut pieces back into whole fat blocks.
+This mod requires "Cut The Fat" and patches the crafting recipes to make two key improvements. If you've played with Cut The Fat, you've probably experienced getting stuck with only cut fat pieces when you need whole fat chunks for certain recipes like fruit presses. This mod solves that problem while also improving the cutting consistency.
+
+### About Cut The Fat (Original Mod)
+
+The "Cut The Fat" mod allows you to use a knife or cleaver to cut chunks of fat into smaller pieces. These pieces can be used for most recipes, including oil lamps, sealing crocks, and oiling hides, though crafting machine parts still requires full chunks. The pieces can be placed on the ground, on tables, and on shelves. While pieces make crock sealing and oil lamps more resource efficient, oiling hides has about the same efficiency but allows you to oil smaller batches without consuming an entire chunk. Originally, using a knife gives 3 pieces while a cleaver gives 4.
 
 ## Features
 
-- **Recombine Fat Pieces**: Craft 4 fat-cut pieces back into 1 whole fat item using a 2x2 crafting pattern
-- **Improved Fat Cutting**: Updates the fat cutting recipe to yield 4 fat-cut pieces (instead of the default amount)
-- **Shapeless Crafting**: The recombining recipe works in any 2x2 arrangement - no specific pattern required
+- **Recombine Fat Pieces**: Put 4 fat pieces back in the crafting grid to get a whole fat chunk (shapeless recipe)
+- **Standardized Cutting Yields**: Both knife AND cleaver now give 4 pieces (instead of knife=3, cleaver=4)
+- **Shapeless Crafting**: The recombining recipe works in any arrangement - no specific pattern required
 
 ## Screenshots
 
@@ -36,9 +40,9 @@ This mod works as a companion to the "Cut The Fat" mod, allowing players to reve
 
 ## Technical Details
 
-This mod uses JSON patches to modify the existing fat cutting recipes:
-- Adds a new recipe to combine 4 `fat-cut` items into 1 `fat` item
-- Modifies the original fat cutting recipe output to provide 4 pieces
+This mod uses JSON patches to modify the existing fat cutting recipes from "Cut The Fat":
+- Adds a new shapeless recipe to combine 4 `fat-cut` items into 1 `fat` item
+- Patches both knife and cleaver cutting recipes to yield 4 pieces each (standardizing the output)
 
 ## Author
 
